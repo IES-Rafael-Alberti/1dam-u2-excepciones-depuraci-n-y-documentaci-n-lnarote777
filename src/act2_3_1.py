@@ -23,7 +23,7 @@ def main():
     try: 
         print("Ha cumplido " , cumplido(edad))
     except ValueError as e:
-        print("***ERROR*** - " + str(e))
+        print("ERROR - ", e)
 
     
     

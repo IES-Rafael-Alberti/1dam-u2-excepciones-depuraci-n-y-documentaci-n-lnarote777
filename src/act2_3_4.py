@@ -5,3 +5,14 @@ Escribir un programa que pida al usuario un número entero, si la entrada no es 
 """
 
 
+def mensaje(num):
+   
+
+
+
+def main():
+    n = int(input("Introduzca un número:"))
+    
+    
+if __name__ == "__main__":
+    main()

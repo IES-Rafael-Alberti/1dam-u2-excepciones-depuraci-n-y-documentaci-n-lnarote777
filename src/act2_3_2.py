@@ -25,7 +25,7 @@ def main():
     try: 
         print(impares(n))
     except ValueError as e:
-        print("***ERROR*** - " + str(e))
+        print("ERROR - " + str(e))
 
     
     
