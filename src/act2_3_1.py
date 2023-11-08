@@ -4,7 +4,7 @@ Ejercicio 2.3.1
 Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que ha cumplido (desde 1 hasta su edad).
 """
 
-def cumplido(edad):
+def edad_cumplida(edad):
     if edad < 0 :
         raise ValueError ("La edad no puede ser negativa.")
      
@@ -21,7 +21,7 @@ def cumplido(edad):
 def main(): 
     edad = int(input("Introduzca su edad: "))
     try: 
-        print("Ha cumplido " , cumplido(edad))
+        print("Ha cumplido " , edad_cumplida(edad))
     except ValueError as e:
         print("ERROR - ", e)
 

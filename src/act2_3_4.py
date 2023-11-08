@@ -5,13 +5,25 @@ Escribir un programa que pida al usuario un número entero, si la entrada no es 
 """
 
 
-def mensaje(num):
-   
+def convertirAEntero(entrada: str) -> int:
+    """Convertir una cadena de caracteres en un número entero
 
+    Args:
+        entrada (str): una cadena de caracteres
+
+    Returns:
+        int: número entero de la conversión de la cadena de caracteres
+    """
+    num = int(entrada)   
+    return num
 
 
 def main():
-    n = int(input("Introduzca un número:"))
+    n = input("Introduzca un número:")
+    try:
+        num = convertirAEntero(n)
+    except Exception:
+        print("La entrada no es correcta")
     
     
 if __name__ == "__main__":
