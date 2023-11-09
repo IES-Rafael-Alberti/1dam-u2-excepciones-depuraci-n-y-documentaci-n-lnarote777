@@ -6,6 +6,17 @@ Deberá solicitar el número hasta introducir uno correcto.
 """
 
 def cuenta_atras(num):
+    """_summary_
+
+    Args:
+        num (_type_): _description_
+
+    Raises:
+        ValueError: _description_
+
+    Returns:
+        _type_: _description_
+    """
     if num < 0 :
         raise ValueError ("El número no puede ser negativo. " )
     

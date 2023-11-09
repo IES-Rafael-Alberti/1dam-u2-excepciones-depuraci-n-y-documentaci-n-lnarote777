@@ -6,6 +6,17 @@ Escribir que solicite una contraseña, y si no coincide con la que se tiene, lan
 
 
 def comprobarPassword(password):
+    """Comprobacion de la contraseña introducida.
+
+    Args:
+        password (str): contraseña introducida por el usuario.
+
+    Raises:
+        NameError: Salta el error cuando la contraseña del usuario no es correcta.
+
+    Returns:
+        str: devuelve un mensaje confirmando que la contraseña es correcta.
+    """
     miPassWord = "contraseña" 
     
     if password.lower() == miPassWord.lower():
