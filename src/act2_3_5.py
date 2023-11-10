@@ -6,7 +6,7 @@ Escribir que solicite una contraseña, y si no coincide con la que se tiene, lan
 
 
 def comprobarPassword(password):
-    """Comprobacion de la contraseña introducida.
+    """Comprobación de la contraseña introducida.
 
     Args:
         password (str): contraseña introducida por el usuario.

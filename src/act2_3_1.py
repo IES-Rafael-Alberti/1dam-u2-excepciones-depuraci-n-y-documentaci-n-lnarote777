@@ -5,6 +5,17 @@ Escribir un programa que pregunte al usuario su edad y muestre por pantalla todo
 """
 
 def edad_cumplida(edad):
+    """Recuento de años que ha cumplido el usuario.
+
+    Args:
+        edad (int): edad que tiene el usuario.
+
+    Raises:
+        ValueError: Error que salta cuando se introduce un número negativo.
+
+    Returns:
+        str: Cadena de caracteres con los años que ha cumplido el usuario.
+    """
     if edad < 0 :
         raise ValueError ("La edad no puede ser negativa.")
      

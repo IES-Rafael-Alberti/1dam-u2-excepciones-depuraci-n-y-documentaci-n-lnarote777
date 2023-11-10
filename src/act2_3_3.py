@@ -6,16 +6,16 @@ Deberá solicitar el número hasta introducir uno correcto.
 """
 
 def cuenta_atras(num):
-    """_summary_
+    """Realiza una cuenta hacia atás desde el número introducido.
 
     Args:
-        num (_type_): _description_
+        num (int): número introducido por el usuario.
 
     Raises:
-        ValueError: _description_
+        ValueError: Se lanza el error cuando el número es negativo.
 
     Returns:
-        _type_: _description_
+        str: Cadena de caracteres de números con la cuenta hacia atrás.
     """
     if num < 0 :
         raise ValueError ("El número no puede ser negativo. " )

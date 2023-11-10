@@ -1,5 +1,13 @@
 
 def ordenarLista(a):
+    """Ordenar una lista
+
+    Args:
+        a (list): Una lista
+
+    Returns:
+        list: Una lista ordenada
+    """
     total =len(a)
     cont = 0
     for i in range(0, len(a)):

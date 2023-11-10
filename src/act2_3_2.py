@@ -5,6 +5,17 @@ Escribir un programa que pida al usuario un número entero positivo y muestre po
 """
 
 def impares(num):
+    """Contador de números impares.
+
+    Args:
+        num (int): Número que introduce el usuario para contar los impares hasta llegar a él.
+
+    Raises:
+        ValueError: error que salta cuando se introduce un número negativo
+
+    Returns:
+        str: cadena de caracteres de números impares.
+    """
     if num < 0 :
         raise ValueError ("El número no puede ser negativo.")
     
